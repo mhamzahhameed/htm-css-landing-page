@@ -1,0 +1,109 @@
+body{
+    background-color:  whitesmoke;
+    margin: 0 0 40px 30px;
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+nav{
+    background-color: rgb(51, 49, 49);
+    width: 90%;
+    height: 10px;
+    
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    
+}
+.header .image::before{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 200px;
+    background-image: url("img/pasta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+    opacity: 0.9;
+    
+    
+}
+.header .text {
+    position: relative;
+    z-index: 1;
+  color: white;
+  padding: 10px;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .main .card {
+    width: 300px;
+  background-color: peachpuff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+   
+  }
+  .card{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  .card-heading {
+    font-size: 24px;
+    padding: 16px;
+    margin: 0;
+  }
+  
+  .card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .card-paragraph {
+    padding: 16px;
+    margin: 0;
+    color: #777777;
+  }
+  .horizontal-line {
+    position: relative;
+    height: 1px;
+  }
+  .footer{
+    background-color: rgb(51, 49, 49);
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+  .footer a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
